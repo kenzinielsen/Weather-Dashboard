@@ -1,0 +1,22 @@
+header {
+    margin: 15px 15px 15px 15px;
+    
+}
+
+.citySearch {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cityBtn {
+    border: none;
+    background-color:blue;
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    line-height: 22px;
+    margin: 16px 16px 16px 20px;
+    padding: 14px 34px;
+    text-align: center;
+    cursor: pointer;
+};

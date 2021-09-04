@@ -1,22 +1,16 @@
-/*header {
-    margin: 15px 15px 15px 15px;
-    
-}*/
-
-.citySearch {
-    display: flex;
-    justify-content: flex-start;
+header {
+    margin: 30px;
 }
 
-/*.cityBtn {
-    border: none;
-    background-color:blue;
-    border-radius: 25px;
-    color: hsl(0, 0%, 100%);
-    display: inline-block;
-    line-height: 22px;
-    margin: 16px 16px 16px 20px;
-    padding: 14px 34px;
-    text-align: center;
-    cursor: pointer;
-};*/
+hr {
+    border-bottom: 2px solid black;
+}
+
+.searched {
+    padding: 10px;
+}
+.card {
+    background-color: rgb(44, 62, 95);
+    color: white;
+
+}

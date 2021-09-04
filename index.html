@@ -17,8 +17,9 @@
       <div class="m-3 row justify-content-start">
         <div class="col-3">
           <h2 class="col-12">Search for a City:</h2>
-          <input class="col-12"></input>
-          <button type="button" class="col-12 mt-3 btn btn-info">Search</button>
+          <input type="text" class="col-12" id="inputValue"></input>
+          <button type="button" class="searchBtn col-12 mt-3 btn btn-info">Search</button>
+        <hr/>
           <button type="button" class="col-12 mt-3 btn btn-info bg-secondary">Search History</button>
           <button type="button" class="col-12 mt-3 btn btn-info bg-secondary">Search History</button>
           <button type="button" class="col-12 mt-3 btn btn-info bg-secondary">Search History</button>
@@ -29,15 +30,15 @@
         </div>
 
       <div class="container-fluid col-9">
-          <div class="border">
-        <h2 class="col-12">City Searched</h2>
-        <p class="currentTemp">Temp:</p>
-        <p class="currentWind">Wind:</p>
-        <p class="currentHumidity">Humidity:</p>
-        <p class="currentUv">UV Index:</p> 
+          <div class="border searched">
+            <h2 class="col-12"></h2>
+            <p class="currentTemp">Temp:</p>
+            <p class="currentWind">Wind:</p>
+            <p class="currentHumidity">Humidity:</p>
+            <p class="currentUv">UV Index:</p> 
           </div>
 
-      <div class=" m-3">
+      <div class="m-3">
         <h2>5-Day Forecast:</h2>
         <div class="m-6 row justify-content-between">
           <div class="col-2">
@@ -102,5 +103,6 @@
     </div>    
 
     </main>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 # Weather-Dashboard
 
 ## Purpose
-A weather dashboard where you can search for a cities weather. Once searched, you'll receive the current and future weather conditions for that specific city! You can also view the forcast for the next 5 days.
+A website where you can search for a cities weather. Once searched, you'll receive the current weather conditions for that specific city! You will also be able to view the forcast for the next 5 days.
 
 ## Built With
 * HTML

@@ -90,8 +90,8 @@ function forecastSrch() {
       }
 })
 }
- //})
-//}//
+
+
 function handleSearchHistory(event) {
     console.log(event.target)
     if (!event.target.matches(".city-history")) {
